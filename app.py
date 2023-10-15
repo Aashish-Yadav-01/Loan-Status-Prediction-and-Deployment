@@ -5,8 +5,9 @@ import pandas as pd
 
 hide_st_style = """
                 <style>
-                #MainMenu {visibilty: hidden;}
-                footer {visibilty: hidden;}
+                #MainMenu {visibilty:hidden;}
+                .st-emotion-cache-cio0dv.ea3mdgi1{visibilty:hidden;}
+                footer {visibilty:hidden;}
                 <style>
                 """
 st.markdown(hide_st_style,unsafe_allow_html=True)
