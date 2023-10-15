@@ -2,6 +2,14 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
+
+hide_st_style = """
+                <style>
+                #MainMenu {visibilty: hidden;}
+                footer {visibilty: hidden;}
+                <style>
+                """
+                
 pipe = pickle.load(open("loan_pipe.pkl","rb"))
 df = pickle.load(open("loan_data.pkl","rb"))
 st.image("Photo.png")
