@@ -9,7 +9,8 @@ hide_st_style = """
                 footer {visibilty: hidden;}
                 <style>
                 """
-                
+st.markdown(hide_st_style,unsafe_allow_html=True)
+
 pipe = pickle.load(open("loan_pipe.pkl","rb"))
 df = pickle.load(open("loan_data.pkl","rb"))
 st.image("Photo.png")
