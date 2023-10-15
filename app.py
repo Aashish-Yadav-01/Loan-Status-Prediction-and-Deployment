@@ -3,15 +3,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-hide_st_style = """
-                <style>
-                #MainMenu {visibilty:hidden;}
-                .st-emotion-cache-cio0dv.ea3mdgi1{visibilty:hidden;}
-                footer {visibilty:hidden;}
-                <style>
-                """
-st.markdown(hide_st_style,unsafe_allow_html=True)
-
 pipe = pickle.load(open("loan_pipe.pkl","rb"))
 df = pickle.load(open("loan_data.pkl","rb"))
 st.image("Photo.png")
