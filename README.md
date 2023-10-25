@@ -1,4 +1,4 @@
-# Loan-Status-Predictor-and-Deployment:
+# Loan-Status-Prediction-and-Deployment:
 Predicting loan status with a powerful machine learning model and creating an intuitive user interface for informed decision-making
 
 [Web Applicaton Link](https://loan-status-predictor-web-app-m333fcrmbnkhl8ntdlggdn.streamlit.app/)
